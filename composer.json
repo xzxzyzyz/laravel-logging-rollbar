@@ -1,0 +1,28 @@
+{
+  "name": "xzxzyzyz/laravel-logging-rollbar",
+  "description": "Rollbar for Laravel Logging",
+  "keywords": [
+    "rollbar",
+    "log",
+    "laravel"
+  ],
+  "type": "library",
+  "require": {
+    "php": ">=7.1.3",
+    "illuminate/support": "^5.6",
+    "monolog/monolog": "^1.23",
+    "rollbar/rollbar-laravel": "^2.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Xzxzyzyz\\Laravel\\": "src/"
+    }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "xzxzyzyz",
+      "email": "xzxzyzyz@gmail.com"
+    }
+  ]
+}
