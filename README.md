@@ -2,7 +2,7 @@
 
 This package write rollbar by laravel logger.
 
-#### for Laravel 5.6+
+#### for Laravel 5.8+
 
 
 ## Install
@@ -21,6 +21,8 @@ Adding the logging driver in the `config/logging.php` file:
             'driver'   => 'stack',
             'channels' => ['single', 'rollbar'],
         ],
+
+        // ...
         
         'rollbar' => [
             'driver' => 'custom',
